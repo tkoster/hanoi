@@ -1,0 +1,20 @@
+name:               hanoi
+version:            0.1.0.0
+synopsis:           Tower of Hanoi
+description:        A basic solution to the Tower of Hanoi puzzle.
+license:            MIT
+license-file:       LICENSE
+author:             Thomas Koster
+maintainer:         tkoster@gmail.com
+copyright:          2020 Thomas Koster
+build-type:         Simple
+cabal-version:      >=1.10
+extra-source-files: README.md
+
+executable hanoi
+  hs-source-dirs: src
+  main-is: Main.hs
+  default-language: Haskell2010
+  ghc-options: -Wall -O2
+  build-depends:
+    base >= 4.7 && < 5
